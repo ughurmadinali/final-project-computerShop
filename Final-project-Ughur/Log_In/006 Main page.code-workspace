@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../006 Main page"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Register/register.html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Log_In"
+	}
+} 

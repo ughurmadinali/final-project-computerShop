@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./computers.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Computer</button>
+        <a class="btn btn-info mt-25" href="../Main/main.html">Main</a>
+    <table class="table table-dark table-striped">
+        <thead>
+            <th>ID</th>
+            <th>MARK</th>
+            <th>IMG</th>
+            <th>OPTIONS</th>
+        </thead>
+        <tbody>
+            
+        </tbody>
+      </table>
+    </div>
+
+
+
+    
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add Computer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <label for="">Mark</label>
+                        <input class="form-control" type="text">
+
+                        <label for="">RAM</label>
+                        <input class="form-control" type="text">
+
+                        <label for="">GPU</label>
+                        <input class="form-control" type="text">
+
+                        <label for="">Image</label>
+                        <input class="form-control" type="text">
+                    </form>
+                    <form>
+                        <label for="">CPU</label>
+                        <input class="form-control" type="text">
+
+                        <label for="">ROM</label>
+                        <input class="form-control" type="text">
+
+                        <label for="">OS</label>
+                        <input class="form-control" type="text">
+
+                        <label for="">New</label>
+                        <input class="form-control" type="text">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="addBtn" type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./computers.js"></script>
+</body>
+</html>

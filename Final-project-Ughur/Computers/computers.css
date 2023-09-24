@@ -1,0 +1,17 @@
+img{
+    width: 50px;
+}
+
+.modal.modal-dialog{
+    max-width: 700px;
+}
+
+.modal .modal-body{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+
+.modal form{
+    width: 50%;
+}
